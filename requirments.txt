@@ -5,6 +5,6 @@ openai
 tiktoken
 PyPDF2
 streamlit
-python-dotenv
+python-dotenv==1.0.1
 typing-extensions
 langchain-openai
