@@ -1,0 +1,13 @@
+prefix=S:/Project/PDF-chatbot/venv/Library
+exec_prefix=S:/Project/PDF-chatbot/venv/Library
+libdir=S:/Project/PDF-chatbot/venv/Library/lib
+sharedlibdir=S:/Project/PDF-chatbot/venv/Library/lib
+includedir=S:/Project/PDF-chatbot/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
