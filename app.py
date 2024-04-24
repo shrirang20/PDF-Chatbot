@@ -13,7 +13,7 @@ import time
 
 load_dotenv(Path(".env"))
 
-st.set_page_config(page_title="Pdf Chatbot", layout="wide")
+st.set_page_config(page_title="Pdf Chatbot", layout="wide",page_icon='📋')
 st.title("PDF Chatbot")
 
 upload_file = st.file_uploader("Upload a PDF", type=['pdf'])
